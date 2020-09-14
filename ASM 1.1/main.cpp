@@ -13,10 +13,9 @@ extern "C" void uart_put_char( char c ){
 //   }
 //}
 
-extern "C" void application();
-//{
-//    print_asciz( "Hello world, the ANSWER is 42! @[]`{}~\n" );	
-//}
+void application(){
+   print_asciz( "Hello world, the ANSWER is 42! @[]`{}~\n" );	
+}
 
 int main( void ){	
    
